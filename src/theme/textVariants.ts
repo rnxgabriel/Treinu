@@ -1,58 +1,60 @@
+import { TextStyle } from "react-native";
+
 export const textVariants = {
   defaults: {
     fontFamily: "System",
-    fontSize: 16,
+    fontSize: 20,
   },
   header: {
     fontFamily: "System",
-    fontSize: 32,
+    fontSize: 40,
     fontWeight: "700",
     lineHeight: 40,
   },
   subheader: {
     fontFamily: "System",
-    fontSize: 24,
+    fontSize: 30,
     fontWeight: "600",
     lineHeight: 32,
   },
   title: {
     fontFamily: "System",
-    fontSize: 20,
+    fontSize: 24,
     fontWeight: "600",
     lineHeight: 28,
   },
   body: {
     fontFamily: "System",
-    fontSize: 16,
+    fontSize: 18,
     fontWeight: "400",
     lineHeight: 24,
   },
   caption: {
     fontFamily: "System",
-    fontSize: 12,
+    fontSize: 16,
     fontWeight: "400",
     lineHeight: 16,
   },
   bold: {
     fontFamily: "System",
-    fontSize: 16,
+    fontSize: 24,
     fontWeight: "700",
     lineHeight: 24,
   },
   link: {
     fontFamily: "System",
-    fontSize: 16,
+    fontSize: 20,
     fontWeight: "500",
     lineHeight: 24,
     textDecorationLine: "underline",
   },
   button: {
     fontFamily: "System",
-    fontSize: 16,
+    fontSize: 20,
     fontWeight: "700",
     lineHeight: 24,
   },
-};
+} satisfies Record<string, TextStyle>;
 
 export const lightTextVariants = {
   ...textVariants,
@@ -62,7 +64,7 @@ export const lightTextVariants = {
   },
   header: {
     ...textVariants.header,
-    color: "neonBlue",
+    color: "violet",
   },
   subheader: {
     ...textVariants.subheader,
@@ -70,7 +72,7 @@ export const lightTextVariants = {
   },
   title: {
     ...textVariants.title,
-    color: "black",
+    color: "violet",
   },
   body: {
     ...textVariants.body,
@@ -86,7 +88,7 @@ export const lightTextVariants = {
   },
   link: {
     ...textVariants.link,
-    color: "chefchaouenBlue",
+    color: "neonBlue",
   },
   button: {
     ...textVariants.button,
@@ -102,7 +104,7 @@ export const darkTextVariants = {
   },
   header: {
     ...textVariants.header,
-    color: "neonBlue",
+    color: "violet",
   },
   subheader: {
     ...textVariants.subheader,
@@ -126,7 +128,7 @@ export const darkTextVariants = {
   },
   link: {
     ...textVariants.link,
-    color: "zaffre",
+    color: "neonBlue",
   },
   button: {
     ...textVariants.button,

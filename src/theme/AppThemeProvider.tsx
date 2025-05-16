@@ -56,6 +56,7 @@ export function AppThemeProvider({ children }: AppThemeProviderProps) {
     >
       <StatusBar
         barStyle={currentTheme === "light" ? "dark-content" : "light-content"}
+        backgroundColor={theme.colors.background}
       />
       <ThemeProvider theme={theme}>{children}</ThemeProvider>
     </AppThemeContext.Provider>
@@ -63,6 +64,14 @@ export function AppThemeProvider({ children }: AppThemeProviderProps) {
 }
 
 export function useAppTheme() {
+  const context = React.useContext(AppThemeContext);
+  if (context === undefined) {
+    throw new Error("useAppTheme must be used within a AppThemeProvider");
+  }
+  return context["theme"];
+}
+
+export function useAppThemeConfig() {
   const context = React.useContext(AppThemeContext);
   if (context === undefined) {
     throw new Error("useAppTheme must be used within a AppThemeProvider");

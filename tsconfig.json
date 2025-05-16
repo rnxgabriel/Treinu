@@ -4,16 +4,17 @@
     "strict": true,
     "paths": {
       "@components": ["./src/components"],
+      "@constants": ["./src/constants"],
       "@database": ["./src/database"],
       "@domain": ["./src/domain"],
+      "@form": ["./src/form"],
       "@hooks": ["./src/hooks"],
       "@routes": ["./src/routes"],
       "@screens": ["./src/screens"],
       "@services": ["./src/services"],
       "@store": ["./src/store"],
-      "@types": ["./src/types"],
-      "@form": ["./src/form"],
       "@theme": ["./src/theme"],
+      "@types": ["./src/types"],
       "@utils": ["./src/utils"]
     },
     "typeRoots": ["./src/types", "./node_modules/@types"]
