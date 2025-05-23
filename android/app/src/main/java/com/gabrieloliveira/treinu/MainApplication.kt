@@ -1,4 +1,4 @@
-package com.anonymous.Treinu
+package com.gabrieloliveira.treinu
 
 import android.app.Application
 import android.content.res.Configuration

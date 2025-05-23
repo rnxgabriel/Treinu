@@ -1,4 +1,4 @@
-package com.anonymous.Treinu
+package com.gabrieloliveira.treinu
 
 import android.os.Build
 import android.os.Bundle

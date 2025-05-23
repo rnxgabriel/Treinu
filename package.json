@@ -25,6 +25,7 @@
     "expo-linear-gradient": "~14.1.4",
     "expo-navigation-bar": "~4.2.4",
     "expo-status-bar": "~2.2.3",
+    "expo-system-ui": "^5.0.7",
     "firebase": "^11.7.3",
     "lodash": "^4.17.21",
     "react": "19.0.0",

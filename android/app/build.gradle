@@ -87,9 +87,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.anonymous.Treinu'
+    namespace 'com.gabrieloliveira.treinu'
     defaultConfig {
-        applicationId 'com.anonymous.Treinu'
+        applicationId 'com.gabrieloliveira.treinu'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
