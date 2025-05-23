@@ -5,6 +5,10 @@
     "paths": {
       "@components": ["./src/components"],
       "@constants": ["./src/constants"],
+<<<<<<< HEAD
+=======
+      "@database": ["./src/database"],
+>>>>>>> aba69a6bb940fdb5237ed6b14b51bf3e025b17df
       "@domain": ["./src/domain"],
       "@form": ["./src/form"],
       "@hooks": ["./src/hooks"],

@@ -46,7 +46,11 @@ export function GradientButton({
   useEffect(() => {
     progress.value = withRepeat(
       withTiming(1, {
+<<<<<<< HEAD
         duration: 4000,
+=======
+        duration: 6000,
+>>>>>>> aba69a6bb940fdb5237ed6b14b51bf3e025b17df
         easing: Easing.inOut(Easing.ease),
       }),
       -1,

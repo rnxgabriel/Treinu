@@ -50,6 +50,7 @@ export const textVariants = {
   },
   button: {
     fontFamily: "System",
+<<<<<<< HEAD
     fontSize: 18,
     fontWeight: "700",
     lineHeight: 24,
@@ -66,6 +67,12 @@ export const textVariants = {
     fontWeight: "400",
     lineHeight: 16,
   },
+=======
+    fontSize: 20,
+    fontWeight: "700",
+    lineHeight: 24,
+  },
+>>>>>>> aba69a6bb940fdb5237ed6b14b51bf3e025b17df
 } satisfies Record<string, TextStyle>;
 
 export const lightTextVariants = {
@@ -76,7 +83,11 @@ export const lightTextVariants = {
   },
   header: {
     ...textVariants.header,
+<<<<<<< HEAD
     color: "violetDark",
+=======
+    color: "violet",
+>>>>>>> aba69a6bb940fdb5237ed6b14b51bf3e025b17df
   },
   subheader: {
     ...textVariants.subheader,
@@ -106,10 +117,13 @@ export const lightTextVariants = {
     ...textVariants.button,
     color: "offWhite",
   },
+<<<<<<< HEAD
   placeholder: {
     ...textVariants.placeholder,
     color: "lightGray",
   },
+=======
+>>>>>>> aba69a6bb940fdb5237ed6b14b51bf3e025b17df
 };
 
 export const darkTextVariants = {
@@ -120,7 +134,11 @@ export const darkTextVariants = {
   },
   header: {
     ...textVariants.header,
+<<<<<<< HEAD
     color: "violetDark",
+=======
+    color: "violet",
+>>>>>>> aba69a6bb940fdb5237ed6b14b51bf3e025b17df
   },
   subheader: {
     ...textVariants.subheader,
@@ -150,8 +168,11 @@ export const darkTextVariants = {
     ...textVariants.button,
     color: "offWhite",
   },
+<<<<<<< HEAD
   placeholder: {
     ...textVariants.placeholder,
     color: "offWhite",
   },
+=======
+>>>>>>> aba69a6bb940fdb5237ed6b14b51bf3e025b17df
 };

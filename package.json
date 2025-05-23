@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
+<<<<<<< HEAD
+=======
+    "migrate": "npx drizzle-kit generate",
+>>>>>>> aba69a6bb940fdb5237ed6b14b51bf3e025b17df
     "lint": "npx prettier . --write",
     "start": "expo start",
     "android": "expo run:android",
@@ -24,8 +28,13 @@
     "expo-blur": "~14.1.4",
     "expo-linear-gradient": "~14.1.4",
     "expo-navigation-bar": "~4.2.4",
+<<<<<<< HEAD
     "expo-status-bar": "~2.2.3",
     "firebase": "^11.7.3",
+=======
+    "expo-sqlite": "^15.2.9",
+    "expo-status-bar": "~2.2.3",
+>>>>>>> aba69a6bb940fdb5237ed6b14b51bf3e025b17df
     "lodash": "^4.17.21",
     "react": "19.0.0",
     "react-hook-form": "^7.56.1",
@@ -43,6 +52,10 @@
     "@babel/core": "^7.25.2",
     "@types/lodash": "^4.17.16",
     "@types/react": "~19.0.10",
+<<<<<<< HEAD
+=======
+    "drizzle-kit": "^0.31.0",
+>>>>>>> aba69a6bb940fdb5237ed6b14b51bf3e025b17df
     "prettier": "^3.5.3",
     "typescript": "~5.8.3"
   },
