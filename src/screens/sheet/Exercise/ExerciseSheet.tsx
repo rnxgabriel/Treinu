@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import {
   Box,
   Button,
@@ -86,14 +85,3 @@ export function ExerciseSheet() {
     </Sheet>
   );
 }
-=======
-import { Box, Sheet } from "@components";
-
-export function ExerciseSheet() {
-  return (
-    <Sheet>
-      <Box></Box>
-    </Sheet>
-  );
-}
->>>>>>> aba69a6bb940fdb5237ed6b14b51bf3e025b17df

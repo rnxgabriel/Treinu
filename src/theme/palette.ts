@@ -11,11 +11,7 @@ export const palette = {
   white: "#fffaff",
   lightGray: "#d3d3d3",
   green: "#80d0c7",
-<<<<<<< HEAD
   red: "#e33e3e",
-=======
-  red: "#d62828",
->>>>>>> aba69a6bb940fdb5237ed6b14b51bf3e025b17df
   neonBlue: "#4361ee",
   yellow: "#fcbf49",
   transparent: "transparent",

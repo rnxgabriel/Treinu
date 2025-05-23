@@ -13,12 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-<<<<<<< HEAD
       "supportsTablet": false,
       "bundleIdentifier": "com.gabrieloliveira.treinu"
-=======
-      "supportsTablet": true
->>>>>>> aba69a6bb940fdb5237ed6b14b51bf3e025b17df
     },
     "android": {
       "adaptiveIcon": {
@@ -26,19 +22,11 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": false,
-<<<<<<< HEAD
       "package": "com.gabrieloliveira.treinu"
-=======
-      "package": "com.anonymous.Treinu"
->>>>>>> aba69a6bb940fdb5237ed6b14b51bf3e025b17df
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-<<<<<<< HEAD
     "plugins": []
-=======
-    "plugins": ["expo-sqlite"]
->>>>>>> aba69a6bb940fdb5237ed6b14b51bf3e025b17df
   }
 }
